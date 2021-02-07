@@ -1,0 +1,49 @@
+body {
+    width: auto;
+    color: white;
+    background-color: blue;
+    background-image: "beautifuls.png";
+}
+
+boby>p {
+    text-align: center;
+}
+
+.heading {
+    text-align: right;
+    font-size: large;
+    width: fit-content;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 2px 2px 3px black;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    position: relative;
+    border-radius: 50%;
+}
+
+p {
+    margin-right: 20px;
+}
+
+#vpane {
+    position: relative;
+}
+
+#ve {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    border: 4px solid cyan;
+}
