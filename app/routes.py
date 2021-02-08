@@ -13,6 +13,9 @@ def upload_file():
             return
         img_bytes = file.read()
         class_name = get_prediction(image_bytes=img_bytes)
-        class_name = format_class_name(class_name)
+        if isinstance(class_name, str) :
+            class_name = format_class_name(class_name[0])
+        else :
+            class_name = 'No hard hat'
         return render_template('result.html', class_name=class_name)
     return render_template('index.html')

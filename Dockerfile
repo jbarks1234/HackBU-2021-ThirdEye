@@ -4,7 +4,7 @@ WORKDIR thirdeye
 
 EXPOSE 5000
 
-RUN pip install flask
+RUN pip install flask torch image torchvision
 
 COPY . .
 
